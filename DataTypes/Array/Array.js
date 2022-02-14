@@ -1,8 +1,7 @@
 // Array collection of data
 
 // Add another array value is used push keyword and remove value is used pop keyword....
-// OR second way Add another array value added in the other array.
-
+// OR second way Add another array value added in this other array.
 var myArray = [
   "Muhammad Naqi",
   "Muhammad Bilal",
