@@ -76,4 +76,25 @@ for (const pair of myMap) {
   const [key, value] = pair;
   console.log(key + ": " + value);
 }
-console.log("**********************");
+
+console.log("================");
+const id = 2201;
+const uname = "Jane";
+const age = 20;
+const email = "jane@mail.com";
+const phone = 551226671;
+const address = "New York";
+// -----------
+const userInfo = new Map();
+userInfo.set(0, id);
+userInfo.set(1, uname);
+userInfo.set(2, email);
+userInfo.set(3, age);
+userInfo.set(4, phone);
+userInfo.set(5, address);
+
+for (const pair of userInfo) {
+  const [key, value] = pair;
+  console.log(key + ": " + value);
+}
+console.log(" ********************** ");
