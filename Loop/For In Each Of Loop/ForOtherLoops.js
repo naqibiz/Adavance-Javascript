@@ -97,4 +97,4 @@ for (const pair of userInfo) {
   const [key, value] = pair;
   console.log(key + ": " + value);
 }
-console.log(" ********************** ");
+console.log("**********************");
